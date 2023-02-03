@@ -5,7 +5,7 @@ import React, {useState} from "react"
 function App() {
   return (
     <div className="App">
-      <h1>Borderlands Memory Game</h1>
+      <h1> Game Console Memory Game</h1>
       <Cards/>
     </div>
   );
