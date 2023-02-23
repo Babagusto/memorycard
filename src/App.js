@@ -7,7 +7,7 @@ function App() {
 
   let [currentScore, setCurrentScore] = useState(0);
   let [bestScore, setBestScore] = useState(0)
-  // console.log(currentScore +" app")
+
   return (
     <div className="App">
       <div id="header-container"> 
