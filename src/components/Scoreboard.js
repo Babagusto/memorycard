@@ -1,11 +1,12 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './Cards.js';
+import '../scoreboard.css'
 
 const Scoreboard = ({currentScore, bestScore}) => {
     return (<div id='score-items-container'>
-                <div className='score-keeper'>Score:{currentScore}</div>
-                <div className='score-keeper'>Best Score:{bestScore}</div>
+                <div className='score-keeper'>Score: {currentScore}</div>
+                <div className='score-keeper'>Best Score: {bestScore}</div>
             </div>
     )
 }

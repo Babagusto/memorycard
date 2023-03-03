@@ -11,7 +11,10 @@ function App() {
   return (
     <div className="App">
       <div id="header-container"> 
+      <div id="title-container">
         <h1>Console Memory Game</h1>
+        <h2>Don't pick the same card twice! High score is 9.</h2>
+        </div>
         <Scoreboard currentScore={currentScore} setCurrentScore={setCurrentScore}
                     bestScore={bestScore} setBestScore={setBestScore}/>
       </div>

@@ -1,10 +1,25 @@
 .cardImg {
-    width: 250px;
-    height: 150px;
+    width: 150px;
+    height: 100px;
+    border-radius: 10%;
 }
 
 #cardContainer {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    gap: 20px;
+    justify-items: center;
+    align-items: center;
+    width: 800px
+}
+
+#card-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card-title {
+    margin-bottom: 30px;
+    display: flex;
+    justify-content: center;
 }

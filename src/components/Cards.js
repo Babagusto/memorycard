@@ -63,16 +63,18 @@ const Cards = ({currentScore, setCurrentScore, bestScore, setBestScore}) => {
 
   
     return(
+    <div id='card-section'>
     <div id="cardContainer">
         {cards.map((card) => {
             return (<div key={card.id} 
                     className='cardDiv' 
                     onClick={() => {shuffleCards(cards); keepScore(card.id);}}>
                         <img className ='cardImg'src={card.imgsrc}></img>
-                        <div>{card.title}</div>
+                        <div className='card-title'>{card.title}</div>
                    </div>
             )
         })}
+    </div>
     </div>
     )
 }
