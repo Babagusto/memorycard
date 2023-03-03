@@ -32,9 +32,6 @@ const Cards = ({currentScore, setCurrentScore, bestScore, setBestScore}) => {
 
     const [clickArray, setClickArray] = useState([])
 
-    // let [currentScore, setCurrentScore] = useState(0)
-
-    // let [bestScore, setBestScore] = useState(0)
 
 
     const shuffleCards = (array) => {
