@@ -54,13 +54,18 @@ const Cards = ({currentScore, setCurrentScore, bestScore, setBestScore}) => {
         if (duplicateStatus == false) {
             setCurrentScore(currentScore + 1) 
         } else if (duplicateStatus == true){
-            setBestScore(bestScore = currentScore)
+            checkBest(currentScore)
             setCurrentScore(0)
             setClickArray([])
         }
         console.log(id)
     }
 
+    const checkBest = (currentScore) => {
+        if (currentScore > bestScore)  {
+            setBestScore(bestScore = currentScore)
+        }
+    }
   
     return(
     <div id='card-section'>
