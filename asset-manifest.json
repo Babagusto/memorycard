@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/memory-card/static/css/main.30f91daa.css",
-    "main.js": "/memory-card/static/js/main.a8aba7f1.js",
-    "static/media/gameboy.jpg": "/memory-card/static/media/gameboy.30d87ed316e4e07869d9.jpg",
-    "static/media/sega.jpg": "/memory-card/static/media/sega.0d187eb15391164690fb.jpg",
-    "static/media/ps5.jpg": "/memory-card/static/media/ps5.bb681844924a09d84c17.jpg",
-    "static/media/nintendods.jpg": "/memory-card/static/media/nintendods.91e4b434c4e92cecc84a.jpg",
-    "static/media/xbox.jpg": "/memory-card/static/media/xbox.fad468a8b5747d4d4ded.jpg",
-    "static/media/gamecube.jpg": "/memory-card/static/media/gamecube.3408c1e8858a6c0da9e8.jpg",
-    "static/media/switch.jpg": "/memory-card/static/media/switch.69e13c0fbe0bf79cb5e4.jpg",
-    "static/media/nes.jpg": "/memory-card/static/media/nes.ea24053b5ed95e478881.jpg",
-    "static/media/playstation.jpg": "/memory-card/static/media/playstation.0fcc16dbbdf9c5700d8e.jpg",
-    "index.html": "/memory-card/index.html",
-    "main.30f91daa.css.map": "/memory-card/static/css/main.30f91daa.css.map",
-    "main.a8aba7f1.js.map": "/memory-card/static/js/main.a8aba7f1.js.map"
+    "main.css": "/memorycard/static/css/main.30f91daa.css",
+    "main.js": "/memorycard/static/js/main.a8aba108.js",
+    "static/media/gameboy.jpg": "/memorycard/static/media/gameboy.30d87ed316e4e07869d9.jpg",
+    "static/media/sega.jpg": "/memorycard/static/media/sega.0d187eb15391164690fb.jpg",
+    "static/media/ps5.jpg": "/memorycard/static/media/ps5.bb681844924a09d84c17.jpg",
+    "static/media/nintendods.jpg": "/memorycard/static/media/nintendods.91e4b434c4e92cecc84a.jpg",
+    "static/media/xbox.jpg": "/memorycard/static/media/xbox.fad468a8b5747d4d4ded.jpg",
+    "static/media/gamecube.jpg": "/memorycard/static/media/gamecube.3408c1e8858a6c0da9e8.jpg",
+    "static/media/switch.jpg": "/memorycard/static/media/switch.69e13c0fbe0bf79cb5e4.jpg",
+    "static/media/nes.jpg": "/memorycard/static/media/nes.ea24053b5ed95e478881.jpg",
+    "static/media/playstation.jpg": "/memorycard/static/media/playstation.0fcc16dbbdf9c5700d8e.jpg",
+    "index.html": "/memorycard/index.html",
+    "main.30f91daa.css.map": "/memorycard/static/css/main.30f91daa.css.map",
+    "main.a8aba108.js.map": "/memorycard/static/js/main.a8aba108.js.map"
   },
   "entrypoints": [
     "static/css/main.30f91daa.css",
-    "static/js/main.a8aba7f1.js"
+    "static/js/main.a8aba108.js"
   ]
 }
