@@ -1,21 +1,21 @@
-.cardImg {
-    width: 150px;
-    height: 100px;
-    border-radius: 10%;
-}
+
 
 #cardContainer {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     justify-items: center;
     align-items: center;
-    width: 800px
+    width: 800px;
+    background-color: rgba(243, 226, 226, 0.295);
+    padding-top: 20px;
+    border-radius: 10px;
 }
 
 #card-section {
     display: flex;
     justify-content: center;
     align-items: center;
+    height: fit-content;
 }
 
 .card-title {

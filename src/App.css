@@ -1,5 +1,5 @@
 body {
-  background-color: rgba(240, 25, 17, 0.76);
+  background-image: linear-gradient(to right, red, blue);
 }
 #header-container{
   display: flex;
@@ -7,10 +7,100 @@ body {
   justify-content: center;
   align-items: center;
   justify-content: space-evenly;
+  width: auto;
+}
+#title-container {
+  margin-bottom: 30px;
+  padding: 15px;
+}
+
+
+
+
+@media only screen and (min-width:1200px) {
+  .cardImg {
+    width: 150px;
+    height: 100px;
+    border-radius: 10%;
+}
+}
+
+@media only screen and (min-width:1025px) and (max-width:1200px){
+  .cardImg {
+    width: 150px;
+    height: 100px;
+    border-radius: 10%;
+}
+}
+
+@media only screen and (min-width:769px) and (max-width:1024px) {
+  .cardImg {
+    width: 150px;
+    height: 100px;
+    border-radius: 10%;
 }
 
 #title-container {
-  margin-right: 500px;
-  margin-bottom: 30px;
-  padding: 15px;
+  margin-top: 50px
+}
+#cardContainer{
+  margin-top: 50px;
+}
+.score-keeper {
+font-size: 4vw;
+}
+
+h1{
+font-size: 4vw;
+}
+
+h2 {
+font-size: 3vw;
+}
+}
+
+@media only screen and (min-width:481px) and (max-width:768px) {
+  .cardImg {
+    width: 120px;
+    height: 80px;
+    border-radius: 10%;
+}
+
+.score-keeper {
+  font-size: 4vw;
+}
+
+h1{
+  font-size: 4vw;
+}
+
+h2 {
+  font-size: 3vw;
+}
+}
+
+@media only screen and (min-width:300px)and (max-width:480px) {
+  #title-container {
+    margin-top: 50px
+  }
+  #cardContainer{
+    margin-top: 50px;
+  }
+  .cardImg {
+    width: 100px;
+    /* height: 100px; */
+    border-radius: 10%;
+}
+
+.score-keeper {
+  font-size: 4vw;
+}
+
+h1{
+  font-size: 5vw;
+}
+
+h2 {
+  font-size: 3vw;
+}
 }
