@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/memorycard/static/css/main.affdac59.css",
+    "main.css": "/memorycard/static/css/main.8f3a8d7d.css",
     "main.js": "/memorycard/static/js/main.5cb20b52.js",
     "static/media/gameboy.jpg": "/memorycard/static/media/gameboy.30d87ed316e4e07869d9.jpg",
     "static/media/sega.jpg": "/memorycard/static/media/sega.0d187eb15391164690fb.jpg",
@@ -12,11 +12,11 @@
     "static/media/nes.jpg": "/memorycard/static/media/nes.ea24053b5ed95e478881.jpg",
     "static/media/playstation.jpg": "/memorycard/static/media/playstation.0fcc16dbbdf9c5700d8e.jpg",
     "index.html": "/memorycard/index.html",
-    "main.affdac59.css.map": "/memorycard/static/css/main.affdac59.css.map",
+    "main.8f3a8d7d.css.map": "/memorycard/static/css/main.8f3a8d7d.css.map",
     "main.5cb20b52.js.map": "/memorycard/static/js/main.5cb20b52.js.map"
   },
   "entrypoints": [
-    "static/css/main.affdac59.css",
+    "static/css/main.8f3a8d7d.css",
     "static/js/main.5cb20b52.js"
   ]
 }
